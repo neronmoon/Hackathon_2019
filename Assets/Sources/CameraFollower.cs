@@ -5,8 +5,11 @@ using UnityEngine;
 public class CameraFollower : MonoBehaviour {
 
     public Transform Target;
+    public float SmoothTime = 0.3F;
+    private Vector3 velocity = Vector3.zero;
 
-    void Update () {
-        transform.position = Vector3.Lerp (transform.position, Target.position, 0.3f);
+    void LateUpdate () {
+
+        transform.position = Vector3.SmoothDamp(transform.position, Target.position, ref velocity, SmoothTime);
     }
 }

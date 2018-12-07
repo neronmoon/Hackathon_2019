@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-    public float Velocity = 200f;
+    public float Speed = 5f;
 
-    void FixedUpdate () {
-        Rigidbody rb = GetComponent<Rigidbody> ();
+    private CharacterController Character;
+
+    private void Start() {
+        Character = GetComponent<CharacterController>();
+    }
+
+    void Update () {
         if (Input.GetMouseButton (0)) {
-            Vector3 direction = getMovementDirection ();
-            rb.velocity = direction * Velocity * Time.deltaTime;
+            Vector3 direction = getMovementDirection();
+            Character.SimpleMove(direction * Speed);
+
             Quaternion delta = Quaternion.LookRotation (direction);
             transform.rotation = Quaternion.Slerp (transform.rotation, delta, 0.3f);
-        } else {
-            rb.velocity = Vector3.zero;
         }
     }
 
