@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollower : MonoBehaviour {
+namespace Project_Hackathon_2019 {
+    public class CameraFollower : MonoBehaviour {
 
-    public Transform Target;
-    public float SmoothTime = 0.3F;
-    private Vector3 velocity = Vector3.zero;
+        public Transform Target;
+        public float SmoothTime = 0.3F;
+        private Vector3 velocity = Vector3.zero;
 
-    void LateUpdate () {
+        void LateUpdate () {
 
-        transform.position = Vector3.SmoothDamp(transform.position, Target.position, ref velocity, SmoothTime);
+            transform.position = Vector3.SmoothDamp (transform.position, Target.position, ref velocity, SmoothTime);
+        }
     }
 }
