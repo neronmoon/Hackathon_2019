@@ -7,10 +7,24 @@ git clone git@github.com:neronmoon/Hackathon_2019.git
 cd Hackathon_2019
 ```
 
-
 ### Useful links
 - [Link to design doc](http://example.com)
 - [Link to issues project](https://github.com/neronmoon/Hackathon_2019/projects/1)
+
+
+### Project structure
+
+```
+ /DesignData - ассеты, созданные из ScriptableObject с данными о гайплейных настройках. *Пример: Weapons/Buster.asset -- ассет с настройками бластера*
+ /Materials - Все материалы, используемые в проекте
+ /Models - Все модели, используемые в проекте
+ /Prefabs - Все префабы, используемые в проекте
+ /Rendering - ассеты для настройки рендеринга. *Пример: Post-processing Volume asset -- настройка пост-процессинга*
+ /Sources - исходный код
+ /Sources/DesignDataTypes - исходный код ScriptableObject, ассеты которых хранятся в /DesignData
+ /Sources/Suport - исходный код не-гейплейных скриптов
+```
+Все файлы в проекте должны быть структурированы согласно данному списку (дополняется), но в первую очередь следует руководствоваться здравым смыслом.
 
 
 ## MagicaVoxel export issues!
