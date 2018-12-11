@@ -13,5 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Bluster
   AttackRate: 10
-  Projectile: {fileID: 1519781026514756, guid: a24e98760d2f848d183f33e5e25cf55b, type: 2}
+  Projectile: {fileID: 1285062633709042, guid: a24e98760d2f848d183f33e5e25cf55b, type: 2}
   ProjectileSpeed: 1000
+  ProjectileLifetime: 1

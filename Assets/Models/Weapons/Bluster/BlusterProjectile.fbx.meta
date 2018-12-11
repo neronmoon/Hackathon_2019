@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 76cc35f2b1bc5409abcd451dda15fa5f
+guid: 39105b4f81285470e8ee7e944ffa5bf9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: BlusterProjectile
-    100002: //RootNode
-    400000: BlusterProjectile
-    400002: //RootNode
-    2100000: palette
+    100000: //RootNode
+    100002: BlusterProjectile
+    100004: Camera
+    400000: //RootNode
+    400002: BlusterProjectile
+    400004: Camera
+    2000000: Camera
+    2100000: palette.002
     2300000: BlusterProjectile
     3300000: BlusterProjectile
     4300000: BlusterProjectile
@@ -42,7 +45,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.13
+    globalScale: 0.1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

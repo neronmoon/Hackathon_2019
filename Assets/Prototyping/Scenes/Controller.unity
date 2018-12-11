@@ -307,7 +307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultPoolSize: 3
   PredefinedPools:
-  - Prefab: {fileID: 1519781026514756, guid: a24e98760d2f848d183f33e5e25cf55b, type: 2}
+  - Prefab: {fileID: 1285062633709042, guid: a24e98760d2f848d183f33e5e25cf55b, type: 2}
     Count: 100
 --- !u!1 &534669902
 GameObject:
@@ -542,6 +542,10 @@ Prefab:
     - target: {fileID: 4084337373188202, guid: 9dd78d5860c814f34a1acb3595c1f44a, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609608555630544, guid: 9dd78d5860c814f34a1acb3595c1f44a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.32
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dd78d5860c814f34a1acb3595c1f44a, type: 2}
