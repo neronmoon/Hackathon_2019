@@ -15,11 +15,11 @@ cd Hackathon_2019
 ### Project structure
 
 ```
- /DesignData - ассеты, созданные из ScriptableObject с данными о гайплейных настройках. *Пример: Weapons/Buster.asset -- ассет с настройками бластера*
+ /DesignData - ассеты, созданные из ScriptableObject с данными о гайплейных настройках.
  /Materials - Все материалы, используемые в проекте
  /Models - Все модели, используемые в проекте
  /Prefabs - Все префабы, используемые в проекте
- /Rendering - ассеты для настройки рендеринга. *Пример: Post-processing Volume asset -- настройка пост-процессинга*
+ /Rendering - ассеты для настройки рендеринга.
  /Sources - исходный код
  /Sources/DesignDataTypes - исходный код ScriptableObject, ассеты которых хранятся в /DesignData
  /Sources/Suport - исходный код не-гейплейных скриптов
