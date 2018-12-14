@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using NaughtyAttributes;
 using Project_Hackathon_2019.DesignDataTypes;
 using Project_Hackathon_2019.Support;
 using UnityEngine;
@@ -7,8 +8,10 @@ using UnityEngine;
 namespace Project_Hackathon_2019 {
     public class PlayerShootingController : MonoBehaviour {
 
+        [Required]
         public Transform SpawnPoint;
 
+        [Required]
         public Weapon Weapon;
 
         private bool isShooting = false;

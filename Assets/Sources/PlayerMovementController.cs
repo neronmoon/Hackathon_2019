@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Project_Hackathon_2019 {
 
+    [RequireComponent (typeof (CharacterController))]
     public class PlayerMovementController : MonoBehaviour {
 
         public float Speed = 8f;
